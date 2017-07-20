@@ -10,6 +10,8 @@ def file_list():
     
 #This function give us the count of file in a directory 
 def file_only():
+    import pdb
+    pdb.set_trace()
     onlyfiles=next(os.walk(r'D:\TEM-Tivoli Endpoint Manager\Git_Repo\site-Patches_for_Ubuntu_1404\Fixlets\amd64\Security'))[2]
     print(len(onlyfiles))
 
